@@ -1,0 +1,165 @@
+* {
+
+
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1 {
+
+    font: 700 44px 'Open Sans',sans-serif;
+    color: #2d2d2d;
+   
+
+}
+
+h2 {
+    
+    margin-bottom: 20px;
+    font: 700 22px 'Open Sans', sans-serif;
+    
+}
+
+ul {list-style: none;}
+
+ul li {
+    margin: 0 0 6px 0;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #898989;
+    font: 400 14px/18px 'Droid Serif', serif;
+    
+}
+
+ul li a:hover {
+
+    text-decoration: underline;
+    color: #696969;
+}
+
+
+.container {
+
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+  
+}
+
+.list-box {
+
+    margin: 30px 0;
+}
+
+.row {
+
+    width: 100%;
+    margin: 0 0 30px 0;
+}
+
+
+.column {
+
+   
+    float: left;
+    margin: 0 0.5% 0 0 ;
+    border: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+.last { margin-right: 0;}
+
+.column.three {
+    width: 33%;
+    
+}
+
+footer {
+
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+    
+}
+
+footer a {
+
+    color: #2d2d2d;
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+
+
+/************** Clear ****************/
+
+
+.clearfix:after,.clearfix:before {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+
+    clear: both;
+}
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+            
+                h1 {font-size: 28px;}
+             .row { margin: 0;}
+        .column {
+        
+            float: none;
+            margin: 0 auto;
+        }
+
+        .column.three {
+        
+            width: 90%;
+            margin-bottom: 10px;
+        }
+		
+		
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+        
+        h1 { font-size: 26px;}
+        .row { margin: 0;}
+        .column {
+        
+            float: none;
+            margin: 0 auto;
+        }
+
+        .column.three {
+        
+            width: 90%;
+            margin-bottom: 10px;
+        }
+		
+	}
