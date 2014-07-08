@@ -21,6 +21,7 @@ h2 {
     
     margin-bottom: 20px;
     font: 700 22px 'Open Sans', sans-serif;
+    color: #434343;
     
 }
 
@@ -33,7 +34,7 @@ ul li {
 
 ul li a{
     text-decoration: none;
-    color: #898989;
+    color: #4e4e4e;
     font: 400 14px/18px 'Droid Serif', serif;
     
 }
@@ -67,6 +68,12 @@ ul li a:hover {
     margin: 0 0 30px 0;
 }
 
+.bi {background: #A2CFA5;}
+.ik {background: #E0E7AB;}
+.uc {background: #F5974E;}
+.do {background: #E96B56;}
+.be {background: #D24344;}
+.al {background:;}
 
 
 .column {
@@ -77,8 +84,6 @@ ul li a:hover {
     padding: 20px 0;
 }
 
-.column:nth-child(1n) { background: rgba(238,97,35,0.1);}
-.column:nth-child(2n) { background: rgba(97,179,222, 0.1);}
 
 
 .last { margin-right: 0;}
